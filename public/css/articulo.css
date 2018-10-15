@@ -1,0 +1,394 @@
+@import url(icomoon.css);
+
+
+
+header{
+	background: #fff;
+	width: 100%;
+	position: fixed;
+	height: 70px;
+	z-index: 100;
+	-webkit-box-shadow: 0px 0px 2px 1px rgba(138,138,138,0.3);
+    -moz-box-shadow: 0px 0px 2px 1px rgba(138,138,138,0.3);
+    box-shadow: 0px 0px 2px 1px rgba(138,138,138,0.3);
+
+}
+
+.aside_eval{
+		position: relative;
+		top: 10px;
+		border-top:solid #00354b;
+		padding: 10px;
+		background: #fff;
+		box-shadow: 0px 0 5px 0 rgba(0,0,0,0.26);
+		overflow: hidden;
+	}
+	.aside_eval{
+		color: #00354b;
+	}
+.logo{
+   line-height: 70px;
+    margin-left: 56px;
+    display: inline-block;
+}
+.logo >img{
+	width: 50px;
+}
+.name {
+	display: inline-block;
+	text-transform: initial;
+	margin-left: 10px;
+
+}
+.menu{
+	display: block;
+    float: right;
+    margin-right: 80px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+
+}
+.menu li {
+	display: block;
+    float: left;
+    margin: 0 10px;
+    line-height: 70px;
+    font-size: 16px;
+    height: 70px;
+}
+.menu li a {
+
+	    display: block;
+    height: 53px;
+    color: #00354b;
+
+}
+.jumbotron{
+	position: relative;
+    top: 70px;
+    background: #00354b;
+    padding:10px 0;
+}
+.menu li a:hover{
+	border-bottom: 3px solid #000;
+	cursor: pointer;
+}
+.contenido{
+	position: relative;
+	top: 55px;
+	padding: 10px 80px;
+
+}
+.art{
+position: relative;
+    top: 20px;
+}
+
+figure {
+    text-align: center;
+    border: solid 1px #ccc;
+    border-radius: 2px;
+    background: rgba(0,0,0,0.05);
+    padding: 10px;
+    margin: 10px 20px;
+    display: inline-block;
+}
+
+/**items*/
+.buscador {
+	margin-bottom: 10px;
+}
+.items{
+	padding:0;
+	background: rgba(255, 255, 255, 0.45);
+	margin-bottom: 0;
+	box-shadow: 0px 0 5px 0 rgba(0,0,0,0.26); 	
+}
+.items li {
+
+	list-style: none;
+	padding: 5px;
+}
+.topic {
+	    background: #426084;
+	padding: 10px !important;
+}
+.topic span a{
+	color: #fff;
+}
+.subtopic span {
+	margin-left: 20px;
+}
+
+/*Content*/
+.header-content{
+	overflow: hidden;
+}
+.advise{
+	padding: .5rem .75rem;
+}
+.navegate-select{
+	border: 2px solid #ccc;
+	padding: .5rem .75rem;
+	width: 100%;
+}
+.content{
+	background: #fff;
+	margin-top: 9px;
+	    text-align: justify;
+    padding: 20px 80px;
+	border-top:solid #df8288;
+	box-shadow: 0px 0 5px 0 rgba(0,0,0,0.26);
+}
+/*Topic-content*/
+.contenido_topic {
+	    padding: 0 80px;
+	    position: relative;
+	    top: 70px;
+}
+.cont-title{
+	background: #5C6BC0;
+	    overflow: hidden;
+    width: 100%;
+    position: relative;
+    height: 170px;
+}
+.circle-tit{
+	    background: #5C6BC0 ;
+    font-size: 80px;
+    color: #fff;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    line-height: 130px;
+    position: absolute;
+    left: calc(50% - 65px);
+    top: 100px;
+    z-index: 9;
+        box-shadow: 0px 0px 10px rgba(36,36,39,0.5);
+}
+.content-topics{
+	background: #fff;
+	padding:55px 150px;
+}
+.articulos li{
+	font-size: 18px;
+	list-style: none;
+	line-height: 40px;
+}
+.articulos li a i {
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 10px;
+}
+.art-tem{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.art-tem a{ 
+	color: #000;
+ }
+.articulos >li:not(.art-tem) {
+	margin-left: 30px;
+}
+/* Typography */
+h1, h2, h3, h4, h5, h6{
+	margin:10px 0;
+	text-rendering: optimizeLegibility;
+}
+h1{
+	line-height:46px
+}
+h2{
+	line-height:42px
+}
+h3{
+	line-height:34px
+}
+h4{
+	line-height:28px;
+	font-size:16px;
+}
+h3 small, h4 small, h5 small {
+ font-family: 'Open Sans';
+  font-weight: 300;	
+  color: #444;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small{
+	color: #505458;
+	font-size: 62%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  color:#505458;
+}
+
+h1.block, h2.block, h3.block, h4.block, h5.block, h6.block {
+  padding-bottom: 10px;
+}
+
+a {
+  text-shadow: none !important;
+  color: #0d638f;
+}
+
+a,a:focus, a:hover, a:active {
+  outline: 0;
+  text-decoration:none;
+}
+
+label.inline{
+	display:inline-block;
+	position:relative;
+	top:0px;
+	font-size: 13px;
+	
+}
+ul > li {
+	padding-left:0;
+	line-height:20px;
+}
+address{
+	margin-bottom:0px;
+}
+blockquote{
+	 padding: 0 0 0 18px;
+	  border-left: 5px solid #EEEEEE;
+}
+blockquote p{
+	font-size:16px
+}
+blockquote small:before{
+	 content: "";
+}
+blockquote.pull-right small:after{
+	content: "";
+}
+blockquote small{
+	line-height: 29px;
+	color:#8b91a0;
+}
+
+.normal{ 
+	font-weight:normal;
+}
+
+.semi-bold{ 
+	font-weight:600;
+}
+
+.bold{ 
+	font-weight:bold;
+}
+
+.all-caps{
+	text-transform:uppercase;
+}
+.light{
+	font-weight:300 !important;
+}
+
+.small-text{
+	font-size:12px !important;
+}
+
+.normal-text{
+	font-size:13px !important;
+}
+
+.large-text{
+	font-size:15px !important;
+}
+
+.center-text{
+	text-align:center !important;
+}
+.muted {
+	color:#b6bfc5;
+}
+/* Background Colors */
+.bg-blue {
+  background-color: #00acec !important;
+}
+
+.bg-red {
+  background-color: #f35958 !important;
+}
+
+.bg-yellow {
+  background-color: #00acec !important;
+}
+
+.bg-green {
+  background-color: #0aa699 !important;
+}
+
+.bg-purple {
+  color: #852b99 !important;
+}
+
+.bg-grey {
+  color: #555555 !important;
+}
+
+/* Font Colors */
+
+.text-black {
+  color: #1b1e24 !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-success{
+	color:#0AA699 !important;
+}
+.text-info{
+	color:#0090D9 !important;
+}
+.text-warning{
+	color:#fbb05e !important;
+}
+.text-error{
+	color:#F35958 !important;
+}
+
+.text-right{
+	text-align:right !important;
+}
+
+.text-left{
+	text-align:left !important;
+}
+
+.text-center{
+	text-align:center !important;
+}
+
+/* Color bands showcase used for demo */ 
+.color-bands.green{
+	background-color:#0aa699
+}
+
+.color-bands.purple{
+	background-color:#a272b2
+}
+
+.color-bands.red{
+	background-color:#f35958
+}
+.color-bands.blue{
+	background-color:#14b9d6
+} 
+
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #E0DFDF;
+  border-bottom: 1px solid #FEFEFE;
+}
+
+/*eval*/

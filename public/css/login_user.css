@@ -1,0 +1,167 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+body{
+    overflow:hidden;
+    min-width: auto !important;
+    /*background: url(http://www.addles.net/public/img/home/backgroud_login.jpg?v=);*/
+         /*linear-gradient(270deg, #00c853, #05c2e1);
+          background-size: 400% 400%;*/
+        background-size: cover;
+        -webkit-animation: AnimationName 30s ease infinite;
+        -moz-animation: AnimationName 30s ease infinite;
+        -o-animation: AnimationName 30s ease infinite;
+        animation: AnimationName 30s ease infinite;
+        padding-top: 0px;
+    background: #333;
+}
+nav{
+    margin-top:10px;
+    background:transparent;
+        -webkit-box-shadow:none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+nav ul li a {
+    color:#f7f7f7;
+}
+    .table-rows{
+        position:relative;
+        min-height: 100vh;
+        display: block;
+        padding: 0%;
+    }
+    .table-rows .row{
+        min-height: 100vh;
+        text-align:center;
+        padding:5%;
+  
+        display: -ms-flexbox;
+       display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        vertical-align: middle;
+    }
+    .table-rows .left{
+       min-width: 440px;
+       width:30%;
+        float:left;
+        background:rgba(70,70,70,0.6);
+        color: #fff;
+        overflow-y: auto;
+    }
+    .table-rows .right{
+        position:relative;
+        color:white;
+         
+        
+    }
+.login h1{
+    font-size:35px;
+    font-weight: 300;
+    line-height:1em;
+}
+.login label{
+    font-size:18px;
+    font-weight:bold;
+    float:left;
+}
+.login input{
+     margin: 5px auto;
+
+}
+
+.login input[type="text"]{
+    border: 2px solid #ccc;
+}
+
+.show-write{
+    font-family:'Indie Flower' !important;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 20em;
+  animation: type2 2s steps(80, end); 
+}
+.show-write2{
+    font-family:'Indie Flower' !important;
+  white-space: nowrap;
+  overflow: hidden;
+  width: auto;
+  animation: type3 3s steps(80, end); 
+}
+.show-write span{
+  animation: blink 1s infinite;
+
+}
+    /*=========================max size*************/
+
+@media only screen and (max-width: 710px){
+     .table-rows .left{
+        padding-top: 50px;
+        min-width: 200px;
+        width: 100%;
+        float: none; 
+        position: fixed;
+        background: #333;
+        display: block;
+        height: 100%;
+    }
+      .table-rows .right{
+          display: none;
+    }
+}
+    
+    
+@keyframes type3{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+/*==================*/
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+video {  
+ min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: fixed;   
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);  
+  z-index: -100;
+  background-size: cover;
+}

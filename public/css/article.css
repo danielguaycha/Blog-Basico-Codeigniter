@@ -1,0 +1,20 @@
+body{
+	background: rgba(204, 204, 204, 0.4);
+}
+header{
+	width: 90%;
+	text-align: center;
+	position: relative;
+	top: 20px;
+	padding: 20px;
+	background: #fff;
+	margin: 0 auto;
+}
+section{
+	background: #ffF;
+	width: 90%;
+	position: relative;
+	top: 40px;
+	margin: 0 auto;
+	padding: 60px;
+}
